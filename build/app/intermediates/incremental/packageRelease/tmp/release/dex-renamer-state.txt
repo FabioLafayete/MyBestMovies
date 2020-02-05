@@ -1,0 +1,4 @@
+#Wed Feb 05 01:36:32 BRST 2020
+base.0=/Users/lafayete/Developer/Projects/Flutter/filmes_favoritos/build/app/intermediates/transforms/r8/release/0/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
