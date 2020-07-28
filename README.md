@@ -1,5 +1,5 @@
 # My Best Movies
 
-Meus filmes favoritos
+Meus filmes favoritos, feito em Flutter.
 
-![](home.png)
+<img src="mybestmovies.gif" width="300" height="560"/>
