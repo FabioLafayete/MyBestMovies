@@ -3,7 +3,6 @@ import 'package:filmes_favoritos/Models/Movie.dart';
 import 'package:filmes_favoritos/Util/api.dart';
 
 import 'dart:async';
-
 import 'package:rxdart/rxdart.dart';
 
 class MoviesBloc implements BlocBase {

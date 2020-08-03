@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'package:filmes_favoritos/Models/Movie.dart';
 import 'package:http/http.dart' as http;
 
-const API_KEY = "38f18c00";
-const ID = "tt3896198";
+import '../global.dart';
+
 const API = "http://www.omdbapi.com/?i=${ID}&apikey=${API_KEY}&plot=full&type=movie";
 
 class Api {

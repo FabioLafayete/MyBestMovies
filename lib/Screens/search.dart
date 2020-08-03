@@ -2,6 +2,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
+import '../global.dart';
+
 class DataSearch extends SearchDelegate<String> {
   @override
   List<Widget> buildActions(BuildContext context) {
@@ -67,7 +69,7 @@ class DataSearch extends SearchDelegate<String> {
 
   Future<List> suggestions(String search) async {
     http.Response response = await http.get(
-        "http://omdbapi.com/?i=tt3896198&apikey=38f18c00&type=movie&page=1&s=$search"
+        "http://omdbapi.com/?i=$ID&apikey=$API_KEY&type=movie&page=1&s=$search"
     );
 
     if(response.statusCode == 200){
